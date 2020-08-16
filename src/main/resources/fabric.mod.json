@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "tidesofthedream",
+  "version": "${version}",
+
+  "name": "Tides of the Dream",
+  "description": "A mysterious dream of a higher plane... uncover its secrets!",
+  "authors": [
+    "CosmicParticl, many assets by Bumble_Dani"
+  ],
+  "contact": {
+    "homepage": "https://www.curseforge.com/members/cosmicparticl",
+    "sources": "https://github.com/CosmicParticl"
+  },
+
+  "license": "LPGL",
+  "icon": "assets/tidesofthedream/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.cosmicparticl.tidesofthedream.tidesofthedream"
+    ],
+    "client": [
+      "net.cosmicparticl.tidesofthedream.client.tidesofthedreamclient"
+    ]
+  },
+  "mixins": [
+
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}

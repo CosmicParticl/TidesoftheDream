@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "A#A",
+        "E/C",
+        "ADA"
+    ],
+    "key": {
+        "A": {
+            "item": "tidesofthedream:dreamslime"
+        },
+        "#": {
+            "item": "minecraft:crimson_hyphae"
+        },
+        "E": {
+            "item": "minecraft:gilded_blackstone"
+        },
+        "/": {
+            "item": "tidesofthedream:mundaneflute"
+        },
+        "C": {
+            "item": "minecraft:warped_nylium"
+        },
+        "D": {
+            "item": "minecraft:nether_bricks"
+        }
+    },
+    "result": {
+        "item": "tidesofthedream:hellflute",
+        "count": 1
+    }
+}

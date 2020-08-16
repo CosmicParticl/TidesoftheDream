@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#G#",
+        "B/J",
+        "#D#"
+    ],
+    "key": {
+        "#": {
+            "item": "tidesofthedream:dreamslime"
+        },
+        "G": {
+            "item": "tidesofthedream:uncannytile"
+        },
+        "B": {
+            "item": "tidesofthedream:etherlily"
+        },
+        "/": {
+            "item": "tidesofthedream:mundaneflute"
+        },
+        "J": {
+            "item": "tidesofthedream:acridslurry"
+        },
+        "D": {
+            "item": "minecraft:phantom_membrane"
+        }
+    },
+    "result": {
+        "item": "tidesofthedream:dreamflute",
+        "count": 1
+    }
+}

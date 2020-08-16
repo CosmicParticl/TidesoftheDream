@@ -1,0 +1,18 @@
+{
+    "language.name": "English",
+    "language.region": "United States",
+    "language.code": "en_us",
+
+    "itemGroup.tidesofthedream": "Tides of the Dream",
+
+    "block.tidesofthedream.uncannytile":"Uncanny Tile",
+    "block.tidesofthedream.etherlily":"Ethereal Lily",
+    "block.tidesofthedream.etherdust":"Ethereal Dust",
+    "block.tidesofthedream.acridslurry":"Acrid Slurry",
+    "item.tidesofthedream.mundaneflute":"Mundane Flute",
+    "item.tidesofthedream.endflute":"Flute of the Terminus",
+    "item.tidesofthedream.dreamflute":"Flute of the Nightmare",
+    "item.tidesofthedream.earthflute":"Flute of the Waking World",
+    "item.tidesofthedream.hellflute":"Flute of the Fiery Pit",
+    "item.tidesofthedream.dreamslime":"Dreamslime"
+}

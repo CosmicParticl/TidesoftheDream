@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#G#",
+        "B/J",
+        "#D#"
+    ],
+    "key": {
+        "#": {
+            "item": "tidesofthedream:dreamslime"
+        },
+        "G": {
+            "item": "minecraft:grass_block"
+        },
+        "B": {
+            "item": "minecraft:blue_ice"
+        },
+        "/": {
+            "item": "tidesofthedream:mundaneflute"
+        },
+        "J": {
+            "item": "minecraft:jungle_leaves"
+        },
+        "D": {
+            "item": "minecraft:diamond_ore"
+        }
+    },
+    "result": {
+        "item": "tidesofthedream:earthflute",
+        "count": 1
+    }
+}
