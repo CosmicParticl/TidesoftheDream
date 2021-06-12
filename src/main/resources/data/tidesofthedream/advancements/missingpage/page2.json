@@ -1,0 +1,23 @@
+{
+  "parent": "tidesofthedream:missingpage/root",
+    "rewards": {
+        "function": "tidesofthedream:page2"
+    },
+ "criteria": {
+    "phantom": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:phantom_membrane"]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "phantom"
+    ]
+  ]
+}

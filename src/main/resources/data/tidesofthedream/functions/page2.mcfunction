@@ -1,0 +1,1 @@
+execute run give @s paper{display:{Name:'{"text":"Missing Page 2","color":"light_purple"}',Lore:['{"text":"Where did this paper come from?","italic":true}','{"text":"You don\'t recognize the handwriting."}','{"text":"Something is written on it..."}','{"text":" \\"Seek the stone that mourns.\\"","italic":true}']}} 1

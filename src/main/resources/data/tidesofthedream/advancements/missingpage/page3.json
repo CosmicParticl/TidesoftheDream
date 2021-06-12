@@ -1,0 +1,24 @@
+{
+  "parent": "tidesofthedream:missingpage/root",
+  
+    "rewards": {
+        "function": "tidesofthedream:page3"
+    },
+ "criteria": {
+    "cry": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items":[ "minecraft:crying_obsidian"]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "cry"
+    ]
+  ]
+}

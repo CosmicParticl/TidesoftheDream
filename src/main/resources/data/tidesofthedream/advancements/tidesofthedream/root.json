@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "item": "tidesofthedream:dreamdiary"
+    },
+    "title": {
+      "translate": "Tides of the Dream"
+    },
+    "description": {
+      "translate": "Complete the first step."
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false,
+    "background": "tidesofthedream:textures/block/uncannytile.png"
+  },
+ "criteria": {
+    "modroot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["tidesofthedream:dreamdiary"]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "modroot"
+    ]
+  ]
+}

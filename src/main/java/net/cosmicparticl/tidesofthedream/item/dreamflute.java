@@ -18,7 +18,7 @@ public class dreamflute extends Item {
 
     public TypedActionResult<ItemStack> use(World world, PlayerEntity user, Hand hand) {
         ItemStack itemStack = user.getStackInHand(hand);
-        world.playSound((PlayerEntity) null, user.getX(), user.getY(), user.getZ(), SoundEvents.ENTITY_ILLUSIONER_PREPARE_BLINDNESS, SoundCategory.PLAYERS, 0.6F, 1.1F / (RANDOM.nextFloat() * 0.4F + 0.8F));
+        world.playSound((PlayerEntity) null, user.getX(), user.getY(), user.getZ(), SoundEvents.ENTITY_ILLUSIONER_PREPARE_BLINDNESS, SoundCategory.PLAYERS, 0.6F, 1.9F);
         user.getItemCooldownManager().set(this, 1200);
         user.addStatusEffect(new StatusEffectInstance(StatusEffects.INVISIBILITY, 600));
         user.addStatusEffect(new StatusEffectInstance(StatusEffects.BLINDNESS, 600));

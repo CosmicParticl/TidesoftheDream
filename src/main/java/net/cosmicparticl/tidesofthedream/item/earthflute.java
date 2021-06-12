@@ -29,7 +29,7 @@ public class earthflute extends earthflutehelper {
                 .equals(world.getRegistryKey()
                         .getValue())) {
 
-            user.teleport(spawn.getX(), spawn.getY(), spawn.getZ());
+            user.requestTeleportAndDismount(spawn.getX(), spawn.getY(), spawn.getZ());
          user.getItemCooldownManager().set(this, 6000);
             world.playSound((PlayerEntity) null, user.getX(), user.getY(), user.getZ(), SoundEvents.BLOCK_PORTAL_TRAVEL, SoundCategory.PLAYERS, .7F, 1F);
 

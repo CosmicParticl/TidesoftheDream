@@ -8,18 +8,19 @@ import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraft.block.Material;
-import net.minecraft.item.BlockItem;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroup;
+import net.minecraft.entity.EquipmentSlot;
+import net.minecraft.item.*;
+import net.minecraft.item.ArmorItem;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.sound.SoundEvent;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
+import net.cosmicparticl.tidesofthedream.item.headbandmaterial;
 
 
 public class tidesofthedream implements ModInitializer {
 
-	public static final Block etherlily = new etherlily(FabricBlockSettings.copy(Blocks.LILY_OF_THE_VALLEY).lightLevel((state) -> 15));
+	public static final Block etherlily = new etherlily(FabricBlockSettings.copy(Blocks.LILY_OF_THE_VALLEY).luminance((state) -> 15));
 	public static final Block uncannytile = new Block(FabricBlockSettings.copy(Blocks.RED_CONCRETE));
 	public static final Block acridslurry  = new Block(FabricBlockSettings.copy(Blocks.DIRT).sounds(BlockSoundGroup.NYLIUM));
 	public static final Block etherdust = new etherdust(FabricBlockSettings.of(Material.WOOL).lightLevel((state) -> 15).hardness(0.1f).nonOpaque().noCollision().sounds(BlockSoundGroup.WOOL));
@@ -29,6 +30,8 @@ public class tidesofthedream implements ModInitializer {
 	public static final Item hellflute = new hellflute(new Item.Settings().maxCount(1).group(ItemGroup.MISC));
 	public static final Item earthflute = new earthflute(new Item.Settings().maxCount(1).group(ItemGroup.MISC));
 	public static final Item dreamslime = new Item(new Item.Settings().group(ItemGroup.MISC));
+	public static final Item dreamdiary = new Item(new Item.Settings().maxCount(1).group(ItemGroup.MISC));
+	public static final Item spirit_headband = new ArmorItem(new headbandmaterial(),EquipmentSlot.HEAD, new Item.Settings().group(ItemGroup.MISC));
 
 	@Override
 	public void onInitialize() {
@@ -53,6 +56,8 @@ public class tidesofthedream implements ModInitializer {
 		Registry.register(Registry.ITEM, new Identifier("tidesofthedream", "hellflute"), hellflute);
 		Registry.register(Registry.ITEM, new Identifier("tidesofthedream", "earthflute"), earthflute);
 		Registry.register(Registry.ITEM, new Identifier("tidesofthedream", "dreamslime"), dreamslime);
+		Registry.register(Registry.ITEM, new Identifier("tidesofthedream", "dreamdiary"), dreamdiary);
+		Registry.register(Registry.ITEM, new Identifier("tidesofthedream", "spirit_headband"), spirit_headband);
 	}
 
 }
